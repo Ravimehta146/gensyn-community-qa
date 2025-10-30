@@ -1,29 +1,46 @@
-<section id="comments" style="
-  max-width: 900px;
-  margin: 60px auto;
-  background-color: #0c0b0b;
-  border: 1px solid #1c1c1c;
-  border-radius: 14px;
-  box-shadow: 0 0 20px rgba(255, 0, 0, 0.1);
-  padding: 2rem;
-  font-family: 'Inter', Arial, sans-serif;
-  color: #fff;
-">
-  <h2 style="
-    font-size: 1.5rem;
-    color: #ff0000;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    text-align: left;
-  ">
-    💬 Community Discussion
-  </h2>
-
-  <script src="https://utteranc.es/client.js"
-          repo="Ravimehta146/gensyn-community-qa"
-          issue-term="pathname"
-          theme="https://ravimehta146.github.io/gensyn-community-qa/utterances-theme.css"
-          crossorigin="anonymous"
-          async>
-  </script>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Community Discussion</title>
+  <link rel="stylesheet" href="utterances-theme.css" />
+  <style>
+    body {
+      background-color: #0c0b0b;
+      color: #fff;
+      font-family: Inter, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 800px;
+      width: 100%;
+      background-color: #141212;
+      padding: 20px;
+      border: 1px solid #ff0000;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    }
+    h2 {
+      color: #ff0000;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>💬 Community Discussion</h2>
+    <script src="https://utteranc.es/client.js"
+            repo="Ravimehta146/gensyn-community-qa"
+            issue-term="pathname"
+            theme="https://ravimehta146.github.io/gensyn-community-qa/utterances-theme.css"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </div>
+</body>
+</html>
