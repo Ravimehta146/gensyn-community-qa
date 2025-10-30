@@ -1,9 +1,38 @@
 :root {
-  --color-bg-primary: #0e0a09;
-  --color-bg-secondary: #1a1514;
-  --color-bg-tertiary: #2c2524;
+  /* Backgrounds */
+  --color-bg-primary: #0c0b0b;
+  --color-bg-secondary: #141212;
+  --color-bg-tertiary: #1c1a1a;
+
+  /* Text */
   --color-text-primary: #ffffff;
-  --color-text-secondary: #cccccc;
+  --color-text-secondary: #bdbdbd;
+  --color-text-link: #ff0000;
+
+  /* Borders and accents */
+  --color-border-primary: #2a2a2a;
+  --color-border-secondary: #1c1c1c;
+  --color-accent-primary: #ff0000;
+  --color-accent-secondary: #cc0000;
+
+  /* Buttons */
   --color-btn-primary: #ff0000;
   --color-btn-primary-hover: #cc0000;
+  --color-btn-text: #ffffff;
+
+  /* Shadows (optional) */
+  --color-shadow-small: rgba(255, 0, 0, 0.15);
+  --color-shadow-medium: rgba(255, 0, 0, 0.25);
+}
+
+/* Optional: tweak link hover */
+a:hover {
+  color: var(--color-accent-secondary);
+}
+
+/* Optional: make the comment box blend in */
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: Inter, Arial, sans-serif;
 }
