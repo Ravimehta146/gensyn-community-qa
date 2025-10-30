@@ -1,0 +1,11 @@
+name: Clear GitHub Pages Cache
+on:
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove Pages artifacts
+        run: |
+          rm -rf public _site
+          echo "Cache cleared"
