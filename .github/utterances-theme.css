@@ -1,0 +1,9 @@
+:root {
+  --color-bg-primary: #0e0a09;
+  --color-bg-secondary: #1a1514;
+  --color-bg-tertiary: #2c2524;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #cccccc;
+  --color-btn-primary: #ff0000;
+  --color-btn-primary-hover: #cc0000;
+}
